@@ -1,0 +1,28 @@
+.header{
+ display:flex;
+ justify-content: flex-start;
+ background-color: #D02C29;
+}
+
+.header-logo{
+  margin: 10px;
+  width: 6%;
+  height: auto;
+
+}
+
+.titlewrapper{
+  display: flex;
+  flex-grow: 2;
+  justify-content: center;
+  align-self: center;
+  margin-left: -120px;
+
+}
+
+.title{
+  display: flex;
+  font-size: 45pt;
+  font-weight: bold;
+  color: white;
+}

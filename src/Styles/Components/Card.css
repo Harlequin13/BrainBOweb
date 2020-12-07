@@ -1,0 +1,26 @@
+.card {
+  margin-top: 12pt;
+  margin-bottom: 12pt;
+  margin-left: auto;
+  border:1pt solid black !important;
+  width: 240px;
+}
+
+.add-card {
+  margin-rigth: -20px;
+}
+
+.card-header {
+  height: 50px;
+  color: #fff;
+  background-color: #343a40 !important;
+}
+
+.card-body {
+  min-height: 200px !important;
+  background-color: rgba(239, 163, 106, 0.6);
+}
+
+.card-footer {
+  background-color: #ccc !important;
+}

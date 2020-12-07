@@ -1,0 +1,46 @@
+
+.Error {
+    vertical-align: top;
+    text-align: center;
+}
+
+.Error-img {
+    width: 10%;
+    height: auto;
+}
+
+.Error span {
+    display: block;
+    font-size: 2em;
+}
+
+.Reload-img {
+    width: 10%;
+    height: auto;
+    margin-top: 10%;
+}
+
+.Loading-img {
+    position: fixed;
+    left: 40%;
+    top: 30%;
+
+    width: 20%;
+    height: auto;
+    pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .Loading-img {
+        animation: Loading-img-spin infinite 5s linear;
+    }
+}
+
+@keyframes Loading-img-spin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
